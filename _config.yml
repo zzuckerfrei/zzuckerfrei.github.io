@@ -10,7 +10,7 @@
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "이선민"
+title                    : "Test"
 title_separator          : "-"
 subtitle                 : "DevOps Engineer"
 name                     : "이선민 (Seonmin Lee)"
