@@ -7,7 +7,7 @@ baseurl             : ""
 ### Author Info ###
 author:
   name              : "이선민 (Seonmin Lee)"
-  image             : # path of author image
+  image             : "" # no author image
   behance           : 
   dribbble          : 
   email             : "seonmin1219@gmail.com"

@@ -2,7 +2,6 @@
 layout: default
 title: About
 permalink: /about/
-weight: 1
 ---
 
 # **About Me**
