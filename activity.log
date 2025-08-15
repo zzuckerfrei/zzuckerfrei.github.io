@@ -1,3 +1,5 @@
 [2025-08-15 18:19:08] [SUCCESS] GitHub Pages 사이트 성공적으로 배포 완료 - https://zzuckerfrei.github.io
 [2025-08-15 18:22:23] [SUCCESS] Minima 다크 테마 적용 완료 - GitHub Pages 호환성 개선
 [2025-08-15 18:35:10] [SUCCESS] portfolYOU 테마로 완전 교체 완료 - GitHub Pages 배포
+[2025-08-15 18:40:52] [SUCCESS] minimal-mistakes 테마로 최종 교체 완료 - 안정적인 GitHub Pages 배포
+[2025-08-15 18:42:47] [FIX] Jekyll 빌드 에러 수정 - backup 디렉토리 exclude 처리 완료
