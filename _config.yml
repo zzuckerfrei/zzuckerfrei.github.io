@@ -5,12 +5,13 @@ email: "seonmin1219@gmail.com"
 description: "DevOps Engineer | Kubernetes 모니터링 솔루션 개발자"
 baseurl: ""
 url: "https://zzuckerfrei.github.io"
-language: "ko"
+
+# GitHub Pages에서 지원하는 테마
+theme: minima
 
 # Author settings
 author: "이선민"
-author_bio: "DevOps Engineer로 Kubernetes 모니터링/운영 솔루션을 개발하고 있습니다. Wondermove에서 Skuber Management 플랫폼을 구축하며, 대규모 인프라 운영과 관측성(Observability) 분야에 관심이 많습니다."
-author_avatar: "/assets/img/avatar.jpg"
+author_bio: "DevOps Engineer로 Kubernetes 모니터링/운영 솔루션을 개발하고 있습니다."
 
 # Social settings
 github_username: "zzuckerfrei"
@@ -24,52 +25,18 @@ permalink: /:year/:month/:day/:title/
 
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
-# Pagination
-paginate: 5
-paginate_path: "/page/:num/"
+# Minima 다크 테마 설정
+minima:
+  skin: dark
 
-# Collections
-collections:
-  authors:
-    output: true
-    permalink: /authors/:name/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "이선민"
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-
-# Theme settings
-theme_color: "#1a1a1a"  # Dark theme
-show_hero: true
-show_author_bio: true
-show_related_posts: true
-
-# Menu
-nav:
-  - title: "홈"
-    url: "/"
-  - title: "소개"
-    url: "/about/"
-  - title: "프로젝트"
-    url: "/projects/"
-  - title: "블로그"
-    url: "/blog/"
-  - title: "연락처"
-    url: "/contact/"
+# Header pages - 상단 네비게이션에 표시될 페이지들
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
 
 # Jekyll configurations
 exclude:

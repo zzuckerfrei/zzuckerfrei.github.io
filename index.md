@@ -1,7 +1,5 @@
 ---
 layout: home
-title: "DevOps Engineer | Kubernetes 전문가"
-description: "안녕하세요! 이선민입니다. DevOps Engineer로 Kubernetes 모니터링과 운영 솔루션을 개발하고 있습니다."
 ---
 
 # 안녕하세요! 👋
