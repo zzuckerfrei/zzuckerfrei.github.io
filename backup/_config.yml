@@ -1,0 +1,46 @@
+# Site settings
+title: "이선민의 개발 블로그"
+name: "이선민 (Seonmin Lee)"
+email: "seonmin1219@gmail.com"
+description: "DevOps Engineer | Kubernetes 모니터링 솔루션 개발자"
+baseurl: ""
+url: "https://zzuckerfrei.github.io"
+
+# GitHub Pages에서 지원하는 테마
+theme: minima
+
+# Author settings
+author: "이선민"
+author_bio: "DevOps Engineer로 Kubernetes 모니터링/운영 솔루션을 개발하고 있습니다."
+
+# Social settings
+github_username: "zzuckerfrei"
+linkedin_username: ""
+twitter_username: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Minima 기본 테마 (일단 작동 확인용)
+# minima:
+#   skin: dark
+
+# Header pages - 상단 네비게이션에 표시될 페이지들
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
+
+# Jekyll configurations
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/

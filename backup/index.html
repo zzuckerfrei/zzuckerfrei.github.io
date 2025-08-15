@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이선민의 개발 블로그</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #1a1a1a;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #4CAF50, #2196F3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        
+        nav {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background: rgba(76, 175, 80, 0.2);
+            color: #4CAF50;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #2196F3;
+            margin: 20px 0 10px 0;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .tech-tag {
+            background: linear-gradient(45deg, #4CAF50, #2196F3);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .contact-links a {
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-links a:hover {
+            background: #4CAF50;
+            color: #1a1a1a;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>이선민의 개발 블로그</h1>
+            <p class="subtitle">DevOps Engineer | Kubernetes 모니터링 솔루션 개발자</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#skills">기술</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+        
+        <section id="about" class="section">
+            <h2>👨‍💻 안녕하세요!</h2>
+            <p><strong>DevOps Engineer</strong>로 Kubernetes 모니터링과 운영 솔루션을 구축하는 <strong>이선민</strong>입니다.</p>
+            <br>
+            <p>현재 <strong>Wondermove</strong>에서 <strong>Skuber Management</strong> 플랫폼을 개발하고 있으며, 대규모 인프라 운영과 관측성(Observability) 분야에 관심이 많습니다.</p>
+        </section>
+        
+        <section id="projects" class="section">
+            <h2>🚀 주요 프로젝트</h2>
+            <h3>Skuber Management Platform</h3>
+            <p><em>Kubernetes 모니터링 및 운영 통합 플랫폼</em></p>
+            <ul>
+                <li><strong>2-Tier 모니터링 아키텍처</strong>: Agent → Host 클러스터 구조</li>
+                <li><strong>87개+ SigNoz 그래프</strong> 완전 구현</li>
+                <li><strong>멀티클러스터 관리</strong>: 5개+ 클러스터 통합 모니터링</li>
+                <li><strong>실시간 메트릭 수집</strong>: OpenTelemetry 기반</li>
+            </ul>
+            <br>
+            <p><strong>기술 스택</strong>: Kubernetes, ClickHouse, SigNoz, OpenTelemetry, Grafana</p>
+        </section>
+        
+        <section id="skills" class="section">
+            <h2>🛠 기술 스택</h2>
+            <div class="tech-stack">
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Go</span>
+                <span class="tech-tag">ClickHouse</span>
+                <span class="tech-tag">SigNoz</span>
+                <span class="tech-tag">OpenTelemetry</span>
+                <span class="tech-tag">Grafana</span>
+                <span class="tech-tag">Cilium</span>
+            </div>
+            
+            <h3>전문 분야</h3>
+            <ul>
+                <li><strong>Platform Engineering</strong>: Kubernetes 클러스터 설계, 운영, 자동화</li>
+                <li><strong>Monitoring & Observability</strong>: SigNoz, ClickHouse 대규모 운영</li>
+                <li><strong>Performance Engineering</strong>: 대용량 시계열 데이터 처리</li>
+                <li><strong>오픈소스 기여</strong>: Cilium 프로젝트 참여</li>
+            </ul>
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>📫 연락하기</h2>
+            <p style="text-align: center; margin-bottom: 20px;">
+                기술 토론, 협업 제안, 또는 궁금한 점이 있으시면 언제든 연락해주세요!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:seonmin1219@gmail.com">📧 이메일</a>
+                <a href="https://github.com/zzuckerfrei" target="_blank">🔗 GitHub</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

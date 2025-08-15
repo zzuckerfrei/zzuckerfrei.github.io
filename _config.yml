@@ -1,46 +1,86 @@
-# Site settings
-title: "이선민의 개발 블로그"
-name: "이선민 (Seonmin Lee)"
-email: "seonmin1219@gmail.com"
-description: "DevOps Engineer | Kubernetes 모니터링 솔루션 개발자"
-baseurl: ""
-url: "https://zzuckerfrei.github.io"
+### Site Settings ###
+title               : "이선민"
+description         : "DevOps Engineer | Kubernetes 모니터링 솔루션 개발자"
+url                 : "https://zzuckerfrei.github.io"
+baseurl             : ""
 
-# GitHub Pages에서 지원하는 테마
-theme: minima
+### Author Info ###
+author:
+  name              : "이선민 (Seonmin Lee)"
+  image             : # path of author image
+  behance           : 
+  dribbble          : 
+  email             : "seonmin1219@gmail.com"
+  facebook          : 
+  github            : "zzuckerfrei"
+  gitlab            : 
+  instagram         : 
+  kaggle            : 
+  linkedin          : 
+  medium            : 
+  soundcloud        : 
+  spotify           : 
+  stackoverflow     : 
+  steam             : 
+  tumblr            : 
+  twitch            : 
+  twitter           : 
+  vimeo             : 
+  youtube           : 
 
-# Author settings
-author: "이선민"
-author_bio: "DevOps Engineer로 Kubernetes 모니터링/운영 솔루션을 개발하고 있습니다."
-
-# Social settings
-github_username: "zzuckerfrei"
-linkedin_username: ""
-twitter_username: ""
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:year/:month/:day/:title/
-
-# Plugins
+### Site Settings (2) ###
+remote_theme        : "yousinix/portfolYOU"
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
   - jekyll-sitemap
 
-# Minima 기본 테마 (일단 작동 확인용)
-# minima:
-#   skin: dark
+paginate            : 4
+paginate_path       : "/blog/page:num"
+repository          : "zzuckerfrei/zzuckerfrei.github.io"
 
-# Header pages - 상단 네비게이션에 표시될 페이지들
-header_pages:
-  - about.md
-  - projects.md
-  - contact.md
+markdown            : kramdown
+highlighter         : rouge
+permalink           : /:title/
 
-# Jekyll configurations
+kramdown:
+  input             : GFM
+  hard_wrap         : false
+
+sass:
+  style             : compressed
+
+collections:
+  projects:
+    output          : true
+    permalink       : /projects/:name/
+
+defaults:
+  - scope:
+      path          : ""
+      type          : "projects"
+    values:
+      layout        : "page"
+  - scope:
+      path          : ""
+      type          : "posts"
+    values:
+      layout        : "post"
+  - scope:
+      path          : ""
+    values:
+      layout        : "default"
+
+### Exclude ###
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - vendor/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
