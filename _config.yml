@@ -28,9 +28,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Minima 다크 테마 설정
-minima:
-  skin: dark
+# Minima 기본 테마 (일단 작동 확인용)
+# minima:
+#   skin: dark
 
 # Header pages - 상단 네비게이션에 표시될 페이지들
 header_pages:
