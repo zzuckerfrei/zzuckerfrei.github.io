@@ -98,7 +98,10 @@ analytics:
 author:
   name             : "이선민"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "DevOps Engineer \n Kubernetes 모니터링/운영 솔루션을 개발하고 있습니다."
+  bio              : >
+    DevOps Engineer
+    
+    Kubernetes 모니터링/운영 솔루션을 개발하고 있습니다.
   location         : "Seoul, Korea"
   email            : "seonmin1219@gmail.com"
   links:
