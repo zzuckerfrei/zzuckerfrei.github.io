@@ -1,7 +1,7 @@
 ---
 name: 테스트 프로젝트 1 - Skuber Management Platform
 tools: [Kubernetes, ClickHouse, SigNoz, OpenTelemetry, Go]
-image: 
+image: /assets/images/meta.PNG
 description: 테스트 프로젝트 1 - Kubernetes 멀티클러스터 모니터링 및 관측성 플랫폼
 ---
 
