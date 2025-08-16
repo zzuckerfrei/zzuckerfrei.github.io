@@ -40,13 +40,13 @@ plugins:
 navigation:
   - title: "Projects" 
     url: "/projects/"
-    weight: 1
+    weight: 3
   - title: "Blog"
     url: "/blog/"
     weight: 2
   - title: "About"
     url: "/about/"
-    weight: 3
+    weight: 1
 
 paginate            : 4
 paginate_path       : "/blog/page:num"
