@@ -1,9 +1,9 @@
 ---
-title: "DevOps 여정에서 배운 교훈들"
+title: "테스트 블로그 1"
 tags: [DevOps, Lessons, Platform]
 style: fill
 color: warning
-description: 플랫폼 엔지니어링 과정에서 얻은 소중한 경험과 교훈들
+description: 더미 데이터 1
 ---
 
 # DevOps 여정에서 배운 교훈들

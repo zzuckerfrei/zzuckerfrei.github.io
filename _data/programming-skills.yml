@@ -1,3 +1,7 @@
+# portfolYOU 테마의 About 페이지 스킬 차트용 데이터
+# 사용법: {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+# 현재 사용 안함 (객관적 지표 없어서 제거함)
+
 - name: Go
   percentage: 70
   color: info

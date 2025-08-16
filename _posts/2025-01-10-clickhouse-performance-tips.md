@@ -1,9 +1,9 @@
 ---
-title: "ClickHouse 성능 최적화 팁"
+title: "테스트 블로그 2"
 tags: [ClickHouse, Performance, Database]
 style: border
 color: success
-description: 대용량 시계열 데이터 처리를 위한 ClickHouse 최적화 방법
+description: 더미 데이터 2
 ---
 
 # ClickHouse 성능 최적화 팁

@@ -1,9 +1,9 @@
 ---
-title: "Kubernetes 모니터링 여정 시작하기"
+title: "테스트 블로그 3"
 tags: [Kubernetes, Monitoring, SigNoz]
 style: fill
 color: primary
-description: 멀티클러스터 환경에서 효과적인 모니터링 시스템을 구축하는 과정
+description: 더미 데이터 3
 ---
 
 # Kubernetes 모니터링 여정 시작하기

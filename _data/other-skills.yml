@@ -1,3 +1,7 @@
+# portfolYOU 테마의 About 페이지 기타 스킬 차트용 데이터
+# 사용법: {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+# 현재 사용 안함 (객관적 지표 없어서 제거함)
+
 - name: Kubernetes
   percentage: 85
   color: primary
